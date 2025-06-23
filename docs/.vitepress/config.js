@@ -1,6 +1,6 @@
 export default {
 
-    base: '/alphabotv2/', 
+    base: '/alphabotv2.github.io/', 
     title: 'AlphaBot-V2-Ar Documentation',
 
   themeConfig: {
