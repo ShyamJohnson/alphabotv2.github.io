@@ -1,0 +1,31 @@
+import{_ as a,c as n,o as p,ae as e}from"./chunks/framework.BtEkjhVd.js";const u=JSON.parse('{"title":"Simple Activities","description":"","frontmatter":{},"headers":[],"relativePath":"Sensors/OLED/oled3.md","filePath":"Sensors/OLED/oled3.md"}'),i={name:"Sensors/OLED/oled3.md"};function l(t,s,c,o,d,r){return p(),n("div",null,s[0]||(s[0]=[e(`<h1 id="simple-activities" tabindex="-1">Simple Activities <a class="header-anchor" href="#simple-activities" aria-label="Permalink to &quot;Simple Activities&quot;">​</a></h1><h2 id="printing-a-circle-on-the-0-96-inch-oled-display-ssd1306-128x64-pixels-using-the-alphabot2" tabindex="-1">Printing a circle on the 0.96-inch OLED display (SSD1306, 128x64 pixels) using the AlphaBot2. <a class="header-anchor" href="#printing-a-circle-on-the-0-96-inch-oled-display-ssd1306-128x64-pixels-using-the-alphabot2" aria-label="Permalink to &quot;Printing a circle on the 0.96-inch OLED display (SSD1306, 128x64 pixels) using the AlphaBot2.&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>#include &lt;Wire.h&gt;</span></span>
+<span class="line"><span>#include &lt;Adafruit_GFX.h&gt;</span></span>
+<span class="line"><span>#include &lt;Adafruit_SSD1306.h&gt;</span></span>
+<span class="line"><span>#define OLED_RESET 9</span></span>
+<span class="line"><span>Adafruit_SSD1306 display(OLED_RESET);  // For I2C communication</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>void setup() {</span></span>
+<span class="line"><span>  // Initialize OLED with I2C address 0x3C</span></span>
+<span class="line"><span>  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  // Clear the display buffer</span></span>
+<span class="line"><span>  display.clearDisplay();</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  // Basic text display</span></span>
+<span class="line"><span>  display.setTextSize(1.4);      // Text Size (Pixels)</span></span>
+<span class="line"><span>  display.setTextColor(WHITE); // Draw white text</span></span>
+<span class="line"><span>  display.setCursor(0,0);      // setCursor(Left - Right,Top - Bottom)</span></span>
+<span class="line"><span>  display.println(&quot;Alphabot V2&quot;);</span></span>
+<span class="line"><span>  display.println(&quot;Ready!&quot;);</span></span>
+<span class="line"><span>  display.display(); // Displays The Text </span></span>
+<span class="line"><span>  delay(2000);</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>void loop() {</span></span>
+<span class="line"><span>  display.clearDisplay();</span></span>
+<span class="line"><span>  display.drawRect(0,0,120,30,WHITE); // drawRect (X-pos,Y-pos,Width,Height)</span></span>
+<span class="line"><span>  display.fillRect(0,0,120,30,WHITE); // Same But Fills The Rectangle</span></span>
+<span class="line"><span>  display.display();</span></span>
+<span class="line"><span>  delay(5000);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>}</span></span></code></pre></div><h2 id="output" tabindex="-1">Output <a class="header-anchor" href="#output" aria-label="Permalink to &quot;Output&quot;">​</a></h2><ul><li>A Small Rectangle is displayed in OLED Display.</li></ul><h2 id="exercise-🤖" tabindex="-1">Exercise 🤖 <a class="header-anchor" href="#exercise-🤖" aria-label="Permalink to &quot;Exercise 🤖&quot;">​</a></h2><ul><li>Try to Print a Triangle and a Simple Stickman in the OLED Display</li></ul>`,7)]))}const y=a(i,[["render",l]]);export{u as __pageData,y as default};
