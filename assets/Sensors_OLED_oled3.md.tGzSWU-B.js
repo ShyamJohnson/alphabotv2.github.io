@@ -1,0 +1,31 @@
+import{_ as s}from"./chunks/videosh.BUczNqhx.js";import{_ as n,c as e,o as p,ae as l}from"./chunks/framework.Dq8kYo8j.js";const y=JSON.parse('{"title":"Simple Activities - Display Rectangle","description":"","frontmatter":{},"headers":[],"relativePath":"Sensors/OLED/oled3.md","filePath":"Sensors/OLED/oled3.md"}'),i={name:"Sensors/OLED/oled3.md"};function t(o,a,c,r,d,h){return p(),e("div",null,a[0]||(a[0]=[l(`<h1 id="simple-activities-display-rectangle" tabindex="-1">Simple Activities - Display Rectangle <a class="header-anchor" href="#simple-activities-display-rectangle" aria-label="Permalink to &quot;Simple Activities - Display Rectangle&quot;">​</a></h1><h2 id="problem-statement" tabindex="-1">Problem Statement <a class="header-anchor" href="#problem-statement" aria-label="Permalink to &quot;Problem Statement&quot;">​</a></h2><ul><li>Write a code to Alphabot so that a Small Rectangle should be displayed in OLED Display.</li></ul><h2 id="code" tabindex="-1">Code <a class="header-anchor" href="#code" aria-label="Permalink to &quot;Code&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>#include &lt;Wire.h&gt;</span></span>
+<span class="line"><span>#include &lt;Adafruit_GFX.h&gt;</span></span>
+<span class="line"><span>#include &lt;Adafruit_SSD1306.h&gt;</span></span>
+<span class="line"><span>#define OLED_RESET 9</span></span>
+<span class="line"><span>Adafruit_SSD1306 display(OLED_RESET);  // For I2C communication</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>void setup() {</span></span>
+<span class="line"><span>  // Initialize OLED with I2C address 0x3C</span></span>
+<span class="line"><span>  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  // Clear the display buffer</span></span>
+<span class="line"><span>  display.clearDisplay();</span></span>
+<span class="line"><span>  </span></span>
+<span class="line"><span>  // Basic text display</span></span>
+<span class="line"><span>  display.setTextSize(1.4);      // Text Size (Pixels)</span></span>
+<span class="line"><span>  display.setTextColor(WHITE); // Draw white text</span></span>
+<span class="line"><span>  display.setCursor(0,0);      // setCursor(Left - Right,Top - Bottom)</span></span>
+<span class="line"><span>  display.println(&quot;Alphabot V2&quot;);</span></span>
+<span class="line"><span>  display.println(&quot;Ready!&quot;);</span></span>
+<span class="line"><span>  display.display(); // Displays The Text </span></span>
+<span class="line"><span>  delay(2000);</span></span>
+<span class="line"><span>}</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>void loop() {</span></span>
+<span class="line"><span>  display.clearDisplay();</span></span>
+<span class="line"><span>  display.drawRect(0,0,120,30,WHITE); // drawRect (X-pos,Y-pos,Width,Height)</span></span>
+<span class="line"><span>  display.fillRect(0,0,120,30,WHITE); // Same But Fills The Rectangle</span></span>
+<span class="line"><span>  display.display();</span></span>
+<span class="line"><span>  delay(5000);</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>}</span></span></code></pre></div><h2 id="output" tabindex="-1">Output <a class="header-anchor" href="#output" aria-label="Permalink to &quot;Output&quot;">​</a></h2><h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-label="Permalink to &quot;&quot;">​</a></h2><div class="video-container"><video controls width="75%"><source src="`+s+'" type="video/mp4"> Your browser doesn&#39;t support HTML5 video. </video></div><h2 id="exercise-🤖" tabindex="-1">Exercise 🤖 <a class="header-anchor" href="#exercise-🤖" aria-label="Permalink to &quot;Exercise 🤖&quot;">​</a></h2><ul><li>Try to Print a Triangle and a Simple Stickman in the OLED Display</li></ul>',10)]))}const _=n(i,[["render",t]]);export{y as __pageData,_ as default};
