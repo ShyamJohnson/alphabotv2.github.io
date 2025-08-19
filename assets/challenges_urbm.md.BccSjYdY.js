@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dq8kYo8j.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/urbm.md","filePath":"challenges/urbm.md"}'),r={name:"challenges/urbm.md"};function s(c,n,o,l,m,p){return a(),t("div")}const i=e(r,[["render",s]]);export{d as __pageData,i as default};

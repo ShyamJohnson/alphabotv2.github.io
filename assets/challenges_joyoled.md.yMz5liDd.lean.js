@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"./chunks/framework.Dq8kYo8j.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/joyoled.md","filePath":"challenges/joyoled.md"}'),a={name:"challenges/joyoled.md"};function s(c,n,r,l,d,p){return t(),o("div")}const m=e(a,[["render",s]]);export{i as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dq8kYo8j.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/lsrb.md","filePath":"challenges/lsrb.md"}'),s={name:"challenges/lsrb.md"};function r(c,n,l,o,p,_){return a(),t("div")}const m=e(s,[["render",r]]);export{i as __pageData,m as default};

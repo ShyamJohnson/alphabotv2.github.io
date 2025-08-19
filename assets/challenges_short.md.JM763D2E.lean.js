@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dq8kYo8j.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/short.md","filePath":"challenges/short.md"}'),s={name:"challenges/short.md"};function r(o,c,n,l,h,p){return a(),t("div")}const i=e(s,[["render",r]]);export{d as __pageData,i as default};

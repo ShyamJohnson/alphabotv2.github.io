@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dq8kYo8j.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/white.md","filePath":"challenges/white.md"}'),s={name:"challenges/white.md"};function c(n,r,o,i,l,h){return a(),t("div")}const d=e(s,[["render",c]]);export{_ as __pageData,d as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t}from"./chunks/framework.Dq8kYo8j.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/joymotor.md","filePath":"challenges/joymotor.md"}'),a={name:"challenges/joymotor.md"};function r(s,c,n,l,m,p){return t(),o("div")}const i=e(a,[["render",r]]);export{d as __pageData,i as default};

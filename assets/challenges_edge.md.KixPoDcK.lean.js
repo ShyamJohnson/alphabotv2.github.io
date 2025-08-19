@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.Dq8kYo8j.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/edge.md","filePath":"challenges/edge.md"}'),s={name:"challenges/edge.md"};function c(n,r,o,d,l,p){return a(),t("div")}const m=e(s,[["render",c]]);export{i as __pageData,m as default};
