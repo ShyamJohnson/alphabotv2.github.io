@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as t}from"./chunks/framework.Dq8kYo8j.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/irrgb.md","filePath":"challenges/irrgb.md"}'),a={name:"challenges/irrgb.md"};function s(c,n,o,i,l,p){return t(),r("div")}const m=e(a,[["render",s]]);export{d as __pageData,m as default};

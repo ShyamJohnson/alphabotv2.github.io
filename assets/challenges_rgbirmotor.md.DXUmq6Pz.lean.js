@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as t}from"./chunks/framework.Dq8kYo8j.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"challenges/rgbirmotor.md","filePath":"challenges/rgbirmotor.md"}'),o={name:"challenges/rgbirmotor.md"};function a(s,c,n,i,l,m){return t(),r("div")}const d=e(o,[["render",a]]);export{_ as __pageData,d as default};
